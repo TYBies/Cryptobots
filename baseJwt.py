@@ -13,9 +13,9 @@ try:
     exchange = ccxt.coinbase({
         'apiKey': API_KEY,
         'secret': API_SECRET,
-        'enableRateLimit': True  
+        'enableRateLimit': True
     })
-  
+
     # Example: Fetch account information
     accounts = exchange.fetch_accounts()
 

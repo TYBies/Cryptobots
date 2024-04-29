@@ -11,7 +11,7 @@ web3.middleware_onion.inject(geth_poa_middleware, layer=0)  # Adjust for Ethereu
 web3.eth.set_gas_price_strategy(fast_gas_price_strategy)
 
 # Set up accounts
-private_key = '5347fc463069230c234ddbcd4dffa2b1324ec08af4472b15df34c7a27d831a8a'
+private_key = ''
 account = Account.from_key(private_key)
 
 # Define DEX contract addresses
